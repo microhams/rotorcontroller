@@ -1,4 +1,4 @@
 rotorcontroller
 ===============
 
-Antenna rotor controller for amateur radio. Based on Black Bone Black
+Antenna rotor controller for amateur radio. Based on Beagle Bone Black
