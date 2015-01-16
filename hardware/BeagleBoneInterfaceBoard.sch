@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5557,6 +5557,29 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,165.1,2.54,X2-4,S,,,,"/>
+<approved hash="101,1,165.1,0,X2-5,S,,,,"/>
+<approved hash="101,1,165.1,-2.54,X2-6,S,,,,"/>
+<approved hash="101,1,165.1,-5.08,X2-7,S,,,,"/>
+<approved hash="101,1,165.1,-7.62,X2-8,S,,,,"/>
+<approved hash="101,1,165.1,-10.16,X2-9,S,,,,"/>
+<approved hash="101,1,48.26,63.5,X3-7,S,,,,"/>
+<approved hash="101,1,48.26,60.96,X3-8,S,,,,"/>
+<approved hash="101,1,48.26,58.42,X3-9,S,,,,"/>
+<approved hash="101,1,48.26,55.88,X3-10,S,,,,"/>
+<approved hash="101,1,96.52,15.24,R2,2,,,,"/>
+<approved hash="101,1,86.36,15.24,R6,2,,,,"/>
+<approved hash="104,1,-55.88,20.32,U$1,VDD_3V3EXP,VDD,,,"/>
+<approved hash="104,1,0,20.32,U$1,VDD_3V3EXP,VDD,,,"/>
+<approved hash="104,1,-55.88,17.78,U$1,VDD_5V,VCC,,,"/>
+<approved hash="104,1,0,17.78,U$1,VDD_5V,VCC,,,"/>
+<approved hash="204,1,-55.88,15.24,U$1,SYS_5V,,,,"/>
+<approved hash="204,1,-55.88,-25.4,U$1,AIN0,,,,"/>
+<approved hash="202,1,-55.88,-27.94,U$1,CLKOUT2,,,,"/>
+<approved hash="112,1,96.52,15.24,,,,,,"/>
+<approved hash="112,1,86.36,15.24,,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

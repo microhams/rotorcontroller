@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1875,14 +1875,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
+<designrules name="SparkFun">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -1904,11 +1897,11 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="8mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
+<param name="msWidth" value="8mil"/>
+<param name="msDrill" value="20mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -1918,15 +1911,15 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="12mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="12mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="10mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="10mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -1943,7 +1936,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1961,6 +1954,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -2254,8 +2250,8 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="27.94" x2="25.4" y2="26.67" width="0.254" layer="1"/>
 <wire x1="22.86" y1="30.48" x2="25.4" y2="27.94" width="0.254" layer="1"/>
 <wire x1="13.97" y1="21.59" x2="13.8" y2="21.27" width="0.254" layer="1"/>
-<wire x1="39.37" y1="11.43" x2="35.56" y2="11.43" width="0.254" layer="1"/>
-<wire x1="43.18" y1="7.62" x2="39.37" y2="11.43" width="0.254" layer="16"/>
+<wire x1="39.37" y1="10.16" x2="35.56" y2="11.43" width="0.254" layer="1"/>
+<wire x1="43.18" y1="7.62" x2="39.37" y2="10.16" width="0.254" layer="16"/>
 <wire x1="49.53" y1="7.62" x2="43.18" y2="7.62" width="0.254" layer="16"/>
 <wire x1="50.8" y1="6.35" x2="49.53" y2="7.62" width="0.254" layer="16"/>
 <wire x1="50.8" y1="3.81" x2="50.8" y2="6.35" width="0.254" layer="16"/>
@@ -2264,8 +2260,8 @@ design rules under a new name.</description>
 <wire x1="52.07" y1="3.81" x2="52.07" y2="3.175" width="0.254" layer="16"/>
 <wire x1="11.43" y1="19.05" x2="22.86" y2="30.48" width="0.254" layer="16"/>
 <wire x1="11.43" y1="11.43" x2="11.43" y2="19.05" width="0.254" layer="16"/>
-<wire x1="39.37" y1="11.43" x2="11.43" y2="11.43" width="0.254" layer="16"/>
-<via x="39.37" y="11.43" extent="1-16" drill="0.6096"/>
+<wire x1="39.37" y1="10.16" x2="11.43" y2="11.43" width="0.254" layer="16"/>
+<via x="39.37" y="10.16" extent="1-16" drill="0.6096"/>
 </signal>
 <signal name="N$1">
 <contactref element="X3" pad="4"/>
